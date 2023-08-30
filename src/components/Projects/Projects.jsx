@@ -18,14 +18,16 @@ function Projects() {
       Url: "https://github.com/rodri154321/nifytigo"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "PI Dogs main",
+      description: "Full Stack",
       imgUrl: projImg5,
+      Url: "https://github.com/DETNAW11/PI-Dogs-main"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Rick and Morthy",
+      description: "Full Stack",
       imgUrl: projImg6,
+      Url: "https://github.com/DETNAW11/Rick-and-Morthy"
     },
   ];
 
