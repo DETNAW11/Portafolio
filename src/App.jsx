@@ -5,6 +5,7 @@ import Banner from "./components/Banner/Banner";
 import Skills from "./components/Skills/Skills";
 import Projects  from "./components/Projects/Projects";
 import Contact  from "./components/Contact/Contact";
+import ContactForm from './components/ContactForm/ContactForm';
 import Footer  from "./components/Footer/Footer";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <Contact />
+      {/* <Contact /> */}
+      <ContactForm/>
       <Footer />
     </div>
   );

@@ -1,0 +1,75 @@
+.contact-info {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90.21deg, #1b045a -5.91%, #3f4c4d 111.58%);
+    padding: 60px 0 200px 0;
+  }
+  
+  .contact-img {
+    margin-right: 20px;
+  }
+  
+  .contact-img img {
+    width: 200%;
+  }
+  
+  .contact-details-box {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 10%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-details h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+                 0 0 20px rgba(255, 255, 255, 0.8),
+                 0 0 30px rgba(255, 255, 255, 0.8),
+                 0 0 40px rgba(255, 255, 255, 0.8),
+                 0 0 50px rgba(255, 255, 255, 0.8);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  input[type="submit"] {
+    background-color: #1b045a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #00aeff; /* Verde fosforescente */
+box-shadow: 0 0 20px rgba(0, 204, 255, 0.5); /* Brillo suave */
+
+  }
+ 
